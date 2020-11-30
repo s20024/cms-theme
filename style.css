@@ -1,7 +1,174 @@
+@charset "UTF-8";
 /*
-Theme Name: MY THEME
+Theme Name: cms-theme 
 Author: TRAVEL SKETCH
 Description: This is my original theme.
 Version: 1.0
 */
 
+body {
+    margin: 0;
+    font-family: 'メイリオ', 'Hiragino Kaku Gothic Pro', sans-serif;
+    background-position: center top;
+    background-image: url(screenshot.jpg);
+    background-size: cover;
+}
+.container {
+    max-width: 650px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 15px;
+}
+
+/* 記事 */
+article{
+    margin-bottom: 40px;
+}
+
+article h1 {
+    margin: 0;
+    font-size: 32px;
+    font-weight: normal;
+}
+
+article h1 a {
+    color: #000000;
+    text-decoration: none;
+}
+
+.postinfo {
+    margin-top: 15px;
+    font-size:14px;
+}
+.postcat a{
+    color: #000000;
+    text-decoration: none;
+}
+
+.postinfo .postcat {
+    margin-left: 20px;
+}
+
+.postinfo i{
+    color: #888888;
+}
+
+.pagenav a {
+    padding: 5px 10px;
+    border: solid 1px #cccccc;
+    border-radius: 10px;
+    color: #666666;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.pagenav .old a {
+    float: left;
+}
+.pagenav .new a {
+    float: right;
+}
+
+.pagenav {
+    overflow: hidden;
+    margin: 40px 0;
+}
+
+/* header */
+header{
+    margin-bottom: 40px;
+    background-color: #4a5f7e;
+    color: #ffffff;
+}
+
+header a {
+    color: #ffffff;
+    text-decoration: none;
+}
+.siteinfo {
+    overflow: hidden;
+    padding: 14px 0;
+}
+.siteinfo h1 {
+    font-family: 'Acme', sans-serif;
+    float:left;
+    margin: 0;
+    font-size: 20px;
+}
+.siteinfo p {
+    float:right;
+    margin: 0;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+/* footer */
+footer {
+    margin-top: 40px;
+    padding: 14px 0;
+    background-color: #4a5f7e;
+    color: #ffffff;
+}
+article img{
+    border: none;
+    max-width: 100%;
+    height: auto;
+}
+
+.aligncenter {
+    display: block;
+    margin: 30px auto 30px auto;
+}
+.wp-block-image figcaption{
+    max-width: 100%;
+    margin: 0;
+    color: #666666;
+    font-size: 14px;
+    text-align: center;
+}
+.blogmenu ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.blogmenu .widget{
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: #e8e8e8;
+}
+.blogmenu .widgettitle{
+    margin-top: 10px 0 20px 0;
+    border-right: solid 10px #4a5f7e;
+    font-size: 14px;
+}
+.blogmenu li a {
+    display: block;
+    padding: 10px 5px;
+    color: #666666;
+    font-size: 14px;
+    text-decoration: none;
+}
+.blogmenu li a:hover {
+    background-color: #ffffff;
+}
+.archive-title{
+    margin: 0 0 0 40px;
+    background-color: #eeeeee;
+    font-size: 14px;
+    font-weight: normal;
+}
+.archive-title i {
+    padding: 15px;
+    background-color: #4a5f7e;
+    color: #ffffff;
+}
+/*
+.wp-caption {
+    max-width: 100%;
+}
+.wp-caption-text{
+    margin: 0;
+    color: #666666;
+    font-size: 14px;
+    text-align: center;
+}*/
